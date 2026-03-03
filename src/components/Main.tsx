@@ -129,7 +129,7 @@ function HeroSection({ scrollYProgress }: { scrollYProgress: any }) {
         <h1 className="text-center font-display text-[11vw] leading-[0.85] tracking-tighter text-white text-opacity-100 drop-shadow-2xl md:text-[7vw]">
           HOLY SIN CAFÉS
           <br />
-          <span className="relative inline-block text-[9vw] md:text-[5vw] tracking-wide">
+          <span className="relative inline-block text-[9vw] md:text-[5vw] tracking-wide pt-4">
             Dehradun’s Exclusive Rooftop Café
             <motion.span
               className="absolute -top-4 left-1/2 h-2 w-8 -translate-x-1/2 rounded-full border border-[#A83232] opacity-0"
@@ -141,7 +141,7 @@ function HeroSection({ scrollYProgress }: { scrollYProgress: any }) {
             />
           </span>
         </h1>
-        <p className="mt-8 font-serif text-base italic tracking-[0.3em] text-[#8A8A8A] md:text-lg">
+        <p className="mt-8 px-4 font-serif text-lg italic tracking-[0.3em] text-white md:text-lg">
           Panoramic mountain views, glowing night skylines, breathtaking sunsets & DJ nights
         </p>
       </div>
@@ -171,9 +171,9 @@ function PhilosophySection() {
 
 function CirclesSection() {
   return (
-    <section id="circles" className="relative w-full px-4 py-24 md:px-12 lg:px-24">
-      <div className="mb-16 flex items-end justify-between border-b border-[#8A8A8A]/20 pb-8">
-        <h2 className="font-display text-4xl tracking-tighter text-white md:text-6xl">
+    <section id="circles" className="relative w-full px-2 py-12 md:px-12 lg:px-24">
+      <div className="mb-8 md:mb-16 flex flex-col md:flex-row items-end justify-between border-b border-[#8A8A8A]/20 pb-4 md:pb-8 gap-2">
+        <h2 className="font-display text-2xl md:text-4xl tracking-tighter text-white md:text-6xl">
           THE DEHRADUN ENTREPRENEUR CIRCLE
         </h2>
         <span className="font-mono text-xs uppercase tracking-widest text-[#8A8A8A]">Select your domain</span>
@@ -181,35 +181,35 @@ function CirclesSection() {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:grid-rows-2">
         {/* Bento Box 1 */}
-        <div className="hover-target glass-panel group relative col-span-1 row-span-2 flex min-h-[400px] flex-col justify-end overflow-hidden rounded-2xl p-8 transition-all hover:border-[#A83232]/50">
+        <div className="hover-target glass-panel group relative col-span-1 row-span-2 flex min-h-[250px] md:min-h-[400px] flex-col justify-end overflow-hidden rounded-2xl p-4 md:p-8 transition-all hover:border-[#A83232]/50">
           <div className="absolute inset-0 -z-10 bg-[url('https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?q=80&w=1974&auto=format&fit=crop')] bg-cover bg-center opacity-20 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-40" />
           <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#050505] to-transparent" />
-          <h3 className="font-display text-3xl tracking-tight text-white">ENTREPRENEURS</h3>
-          <p className="mt-2 font-serif text-sm text-[#8A8A8A]">Entrepreneur community Dehradun, founders, and builders of the next decade.</p>
+          <h3 className="font-display text-xl md:text-3xl tracking-tight text-white">ENTREPRENEURS</h3>
+          <p className="mt-2 font-serif text-xs md:text-sm text-[#8A8A8A]">Entrepreneur community Dehradun, founders, and builders of the next decade.</p>
         </div>
 
         {/* Bento Box 2 */}
-        <div className="hover-target glass-panel group relative col-span-1 row-span-1 flex min-h-[250px] flex-col justify-end overflow-hidden rounded-2xl p-8 transition-all hover:border-[#A83232]/50">
+        <div className="hover-target glass-panel group relative col-span-1 row-span-1 flex min-h-[180px] md:min-h-[250px] flex-col justify-end overflow-hidden rounded-2xl p-4 md:p-8 transition-all hover:border-[#A83232]/50">
           <div className="absolute inset-0 -z-10 bg-[url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-40" />
           <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#050505] to-transparent" />
-          <h3 className="font-display text-2xl tracking-tight text-white">INFLUENCERS</h3>
-          <p className="mt-2 font-serif text-sm text-[#8A8A8A]">Influencer hangouts Dehradun with invite-only events and private member energy.</p>
+          <h3 className="font-display text-lg md:text-2xl tracking-tight text-white">INFLUENCERS</h3>
+          <p className="mt-2 font-serif text-xs md:text-sm text-[#8A8A8A]">Influencer hangouts Dehradun with invite-only events and private member energy.</p>
         </div>
 
         {/* Bento Box 3 */}
-        <div className="hover-target glass-panel group relative col-span-1 row-span-1 flex min-h-[250px] flex-col justify-end overflow-hidden rounded-2xl p-8 transition-all hover:border-[#A83232]/50">
+        <div className="hover-target glass-panel group relative col-span-1 row-span-1 flex min-h-[180px] md:min-h-[250px] flex-col justify-end overflow-hidden rounded-2xl p-4 md:p-8 transition-all hover:border-[#A83232]/50">
           <div className="absolute inset-0 -z-10 bg-[url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-40" />
           <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#050505] to-transparent" />
-          <h3 className="font-display text-2xl tracking-tight text-white">VISIONARIES</h3>
-          <p className="mt-2 font-serif text-sm text-[#8A8A8A]">Visionaries of Dehradun shaping culture, nightlife, and future-forward collaborations.</p>
+          <h3 className="font-display text-lg md:text-2xl tracking-tight text-white">VISIONARIES</h3>
+          <p className="mt-2 font-serif text-xs md:text-sm text-[#8A8A8A]">Visionaries of Dehradun shaping culture, nightlife, and future-forward collaborations.</p>
         </div>
 
         {/* Bento Box 4 */}
-        <div className="hover-target glass-panel group relative col-span-2 row-span-1 flex min-h-[250px] flex-col justify-end overflow-hidden rounded-2xl p-8 transition-all hover:border-[#A83232]/50">
+        <div className="hover-target glass-panel group relative col-span-1 md:col-span-2 row-span-1 flex min-h-[180px] md:min-h-[250px] flex-col justify-end overflow-hidden rounded-2xl p-4 md:p-8 transition-all hover:border-[#A83232]/50">
           <div className="absolute inset-0 -z-10 bg-[url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-40" />
           <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#050505] to-transparent" />
-          <h3 className="font-display text-3xl tracking-tight text-white">THE INNER CIRCLE</h3>
-          <p className="mt-2 font-serif text-sm text-[#8A8A8A]">Private member club Dehradun with curated social circles and rooftop access.</p>
+          <h3 className="font-display text-xl md:text-3xl tracking-tight text-white">THE INNER CIRCLE</h3>
+          <p className="mt-2 font-serif text-xs md:text-sm text-[#8A8A8A]">Private member club Dehradun with curated social circles and rooftop access.</p>
         </div>
       </div>
     </section>
@@ -299,9 +299,9 @@ function PulseSection() {
         </p>
       </div>
 
-      <div className="mt-24 grid w-full max-w-6xl grid-cols-1 gap-8 px-8 md:grid-cols-3">
+      <div className="mt-24 grid w-full max-w-6xl grid-cols-1 gap-8 px-4 md:px-8 md:grid-cols-3">
         <div className="group relative aspect-[3/4] overflow-hidden rounded-sm">
-          <img src="https://images.unsplash.com/photo-1598387181032-a3103a2db5b3?q=80&w=1974&auto=format&fit=crop" alt="Live DJ events Dehradun at Holy Sin Cafes rooftop social club." className="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1598387181032-a3103a2db5b3?q=80&w=1974&auto=format&fit=crop" alt="Live DJ events Dehradun at Holy Sin Cafes rooftop social club." className="h-full w-full object-cover transition-all duration-700 md:grayscale group-hover:scale-105 md:group-hover:grayscale-0" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent opacity-80" />
           <div className="absolute bottom-6 left-6">
             <h4 className="font-display text-2xl text-white">FRIDAY SYNDICATE</h4>
@@ -309,7 +309,7 @@ function PulseSection() {
           </div>
         </div>
         <div className="group relative aspect-[3/4] overflow-hidden rounded-sm md:translate-y-12">
-          <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=2069&auto=format&fit=crop" alt="Invite-only events and private member club moments at Holy Sin Dehradun." className="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=2069&auto=format&fit=crop" alt="Invite-only events and private member club moments at Holy Sin Dehradun." className="h-full w-full object-cover transition-all duration-700 md:grayscale group-hover:scale-105 md:group-hover:grayscale-0" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent opacity-80" />
           <div className="absolute bottom-6 left-6">
             <h4 className="font-display text-2xl text-white">THE GREEN ROOM</h4>
@@ -317,7 +317,7 @@ function PulseSection() {
           </div>
         </div>
         <div className="group relative aspect-[3/4] overflow-hidden rounded-sm">
-          <img src="https://images.unsplash.com/photo-1585647347384-2593bc35786b?q=80&w=1974&auto=format&fit=crop" alt="Live match screening and cinematic rooftop nights with Mussoorie view in Dehradun." className="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1585647347384-2593bc35786b?q=80&w=1974&auto=format&fit=crop" alt="Live match screening and cinematic rooftop nights with Mussoorie view in Dehradun." className="h-full w-full object-cover transition-all duration-700 md:grayscale group-hover:scale-105 md:group-hover:grayscale-0" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent opacity-80" />
           <div className="absolute bottom-6 left-6">
             <h4 className="font-display text-2xl text-white">CINEMA NOIR</h4>
