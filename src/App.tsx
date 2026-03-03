@@ -37,7 +37,10 @@ export default function App() {
 
   return (
     <div className="bg-pulse min-h-screen w-full selection:bg-[#4A0404] selection:text-white">
-      <Cursor />
+      {/* Show Cursor only on desktop */}
+      <div className="hidden md:block">
+        <Cursor />
+      </div>
       <NoiseOverlay />
 
       <AnimatePresence mode="wait">
