@@ -127,7 +127,7 @@ function HeroSection({ scrollYProgress }: { scrollYProgress: any }) {
 
       <div className="relative z-20 flex flex-col items-center">
         <h1 className="text-center font-display text-[11vw] leading-[0.85] tracking-tighter text-white text-opacity-100 drop-shadow-2xl md:text-[7vw]">
-          HOLY SIN CAFES
+          HOLY SIN CAFÉS
           <br />
           <span className="relative inline-block text-[9vw] md:text-[5vw] tracking-wide">
             Dehradun’s Exclusive Rooftop Café
@@ -415,7 +415,7 @@ function FooterSection() {
           </div>
           
           <div className="flex flex-col items-end text-right">
-            <a href="#" className="hover-target font-mono text-[10px] uppercase tracking-widest text-white/50 transition-colors hover:text-white">
+            <a href="https://forms.gle/PMkGyfFHZxjjnyYa8" target="_blank" rel="noopener noreferrer" className="hover-target font-mono text-[10px] uppercase tracking-widest text-white/50 transition-colors hover:text-white">
               Circle Members Login
             </a>
             <a href="https://maps.app.goo.gl/eNNBfrysPxD4YmLq6" target="_blank" rel="noopener noreferrer" className="hover-target mt-2 font-mono text-[10px] uppercase tracking-widest text-white/50 transition-colors hover:text-white">
