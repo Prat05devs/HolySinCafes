@@ -53,14 +53,14 @@ export function Main({ key }: { key?: string }) {
       <AnimatePresence>
         {isNavVisible && (
           <motion.nav
-            className="glass-panel fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4"
+            className="glass-panel fixed top-0 left-0 right-0 z-50 flex flex-col md:flex-row items-center justify-between px-4 py-3 md:px-8 md:py-4"
             initial={{ y: "-100%" }}
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
             transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
           >
-            <div className="font-display text-xl tracking-widest text-white text-opacity-100 drop-shadow-lg">HOLY SIN</div>
-            <div className="flex space-x-8 font-mono text-[10px] uppercase tracking-[0.2em] text-[#e2e2e2] drop-shadow">
+            <div className="font-display text-lg md:text-xl tracking-widest text-white text-opacity-100 drop-shadow-lg mb-2 md:mb-0">HOLY SIN</div>
+            <div className="flex flex-wrap justify-center md:justify-end space-x-4 md:space-x-8 font-mono text-xs md:text-[10px] uppercase tracking-[0.2em] text-[#e2e2e2] drop-shadow">
               <a href="#philosophy" className="hover-target hover:text-[#A83232] transition-colors">Philosophy</a>
               <a href="#circles" className="hover-target hover:text-[#A83232] transition-colors">Circles</a>
               <a href="#taste" className="hover-target hover:text-[#A83232] transition-colors">Taste</a>
